@@ -1,0 +1,95 @@
+Task Manager v2.0
+A powerful and user-friendly command-line task manager written in Python. Manage your daily tasks with categories, tags, priorities, and status tracking.
+
+Features
+Add, edit, and delete tasks
+
+Organize tasks by categories and tags
+
+Mark tasks as complete or incomplete
+
+View tasks filtered by status, category, or tag
+
+Search tasks by keywords
+
+Task priority management: High, Medium, Low
+
+View task statistics
+
+Command-line interface with clear menu navigation
+
+Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/task-manager.git
+cd task-manager
+(Optional) Create and activate a Python virtual environment:
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate      # On Windows: venv\Scripts\activate
+Install dependencies (if any):
+
+Currently, this project has no external dependencies.
+
+Usage
+Run the main program:
+
+bash
+Copy
+Edit
+python main.py
+You will see a menu with options to:
+
+Add new tasks with title, description, priority, category, and tags
+
+View all, pending, or completed tasks
+
+Filter tasks by category or tag
+
+Mark tasks as complete/incomplete
+
+Edit or delete tasks
+
+View task statistics and search tasks
+
+Example
+markdown
+Copy
+Edit
+========================================
+       TASK MANAGER MENU v2.0
+========================================
+1. Add New Task
+2. View All Tasks
+3. View Pending Tasks
+4. View Completed Tasks
+5. View Tasks by Category
+6. View Tasks by Tag
+7. Mark Task Complete
+8. Mark Task Incomplete
+9. Edit Task
+10. Delete Task
+11. Manage Categories
+12. Manage Tags
+13. View Statistics
+14. Search Tasks
+0. Exit
+========================================
+Enter your choice:
+Project Structure
+task_manager.py — Core classes: TaskManager, Task
+
+user_interface.py — Command-line interface for interacting with tasks
+
+main.py — Entry point to launch the application
+
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+
